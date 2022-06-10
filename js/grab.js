@@ -16,7 +16,6 @@ $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=4bce3e49c8304c3ab04
             {name: "CITY", value: data.city},
             {name: "COUNTRY", value: data.country},
             {name: "CONTINENT", value: data.continent},
-            {name: "VPN", value: data.security},
           ],
           footer: {
               text: "By KSEJNEX | nie dla psa kielbasa"
